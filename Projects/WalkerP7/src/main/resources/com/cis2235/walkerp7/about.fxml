@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cis2235.walkerp7.AboutController">
+   <children>
+      <TextArea fx:id="taAbout" editable="false" layoutY="100.0" prefHeight="401.0" prefWidth="500.0" wrapText="true" />
+      <Label alignment="CENTER" layoutX="1.0" layoutY="43.0" prefHeight="27.0" prefWidth="500.0" text="About The Enigma Machine" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

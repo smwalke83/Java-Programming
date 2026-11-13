@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cis2235.walkerp5.HelloController">
+   <children>
+      <Label fx:id="lblTitle" alignment="CENTER" layoutX="22.0" layoutY="14.0" prefHeight="51.0" prefWidth="457.0" text="Welcome to the Customer Table Editor">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnInsert" layoutX="360.0" layoutY="319.0" mnemonicParsing="false" onMouseClicked="#onInsertClicked" text="INSERT RECORD" />
+      <Button fx:id="btnDelete" layoutX="329.0" layoutY="68.0" mnemonicParsing="false" onMouseClicked="#onDeleteClicked" prefHeight="25.0" prefWidth="110.0" text="DELETE RECORD" />
+      <Button fx:id="btnEnterID" layoutX="212.0" layoutY="68.0" mnemonicParsing="false" onMouseClicked="#onDisplayClicked" text="DISPLAY RECORD" />
+      <Button fx:id="btnEdit" layoutX="374.0" layoutY="364.0" mnemonicParsing="false" onMouseClicked="#onEditClicked" text="EDIT RECORD" />
+      <TextField fx:id="tfID" layoutX="161.0" layoutY="68.0" prefHeight="25.0" prefWidth="39.0" />
+      <Label fx:id="lblID" layoutX="25.0" layoutY="55.0" prefHeight="51.0" prefWidth="136.0" text="Enter RECORD ID to DISPLAY or DELETE:" textAlignment="CENTER" wrapText="true" />
+      <TextField fx:id="tfFirstName" layoutX="39.0" layoutY="134.0" prefHeight="25.0" prefWidth="424.0" promptText="Enter First Name:" />
+      <TextField fx:id="tfLastName" layoutX="39.0" layoutY="179.0" prefHeight="25.0" prefWidth="424.0" promptText="Enter Last Name:" />
+      <TextField fx:id="tfPhone" layoutX="39.0" layoutY="225.0" prefHeight="25.0" prefWidth="424.0" promptText="Enter Pone Number:" />
+      <TextField fx:id="tfEmail" layoutX="39.0" layoutY="271.0" prefHeight="25.0" prefWidth="424.0" promptText="Enter Email:" />
+      <Button fx:id="btnCreateTable" layoutX="39.0" layoutY="454.0" mnemonicParsing="false" onMouseClicked="#onCreateClicked" text="Create Table" />
+      <Button fx:id="btnPopulate" layoutX="368.0" layoutY="454.0" mnemonicParsing="false" onMouseClicked="#onPopulateClicked" text="Populate Table" />
+      <Label fx:id="lblInsert" layoutX="70.0" layoutY="310.0" prefHeight="44.0" prefWidth="284.0" text="To INSERT, complete the four fields above and click INSERT RECORD. Providing RECORD ID is optional." textAlignment="CENTER" wrapText="true" />
+      <Label fx:id="lblEdit" layoutX="57.0" layoutY="355.0" prefHeight="44.0" prefWidth="312.0" text="To EDIT, input RECORD ID at the top, click DISPLAY RECORD, edit the relevant fields, and click EDIT RECORD." textAlignment="CENTER" wrapText="true" />
+      <Label fx:id="lblTableCreated" layoutX="42.0" layoutY="429.0" text="Table Created!" visible="false" />
+      <Label fx:id="lblPopulate" layoutX="371.0" layoutY="429.0" text="Table Populated!" visible="false" />
+      <TextArea fx:id="taError" editable="false" layoutX="151.0" layoutY="406.0" prefHeight="80.0" prefWidth="200.0" promptText="When you started this program, it connected to a database. If this database does not have a table yet, click Create Table. Then, click Populate Table to fill the table with starting values." wrapText="true">
+         <font>
+            <Font size="10.0" />
+         </font></TextArea>
+      <Button fx:id="btnClearFields" layoutX="213.0" layoutY="106.0" mnemonicParsing="false" onMouseClicked="#onClearClicked" text="Clear Fields" />
+   </children>
+</AnchorPane>

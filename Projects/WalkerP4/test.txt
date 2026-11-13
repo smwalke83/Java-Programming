@@ -1,0 +1,12 @@
+You are planning a party! Here are some details:
+Theme: 80s
+Number of Guests: 155
+Party Address: 999 Fake St SE
+Length of Party: 4 Hours
+Brand of Snacks: Ruffles
+Brand of Drinks: Off Brand
+DJ: true
+Bouncer: false
+Kids Welcome: true
+Pets Welcome: true
+Plus One Allowed: true

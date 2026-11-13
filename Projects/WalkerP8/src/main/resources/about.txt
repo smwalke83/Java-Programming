@@ -1,0 +1,7 @@
+This program is based on the Enigma Machine from World War II. You can provide a message and a key, and it will be encoded. You can then save the encoded message and key to decode later.
+
+From Wikipedia.org:
+The Enigma machine is a cipher device developed and used in the early- to mid-20th century to protect commercial, diplomatic, and military communication. It was employed extensively by Nazi Germany during World War II, in all branches of the German military. The Enigma machine was considered so secure that it was used to encipher the most top-secret messages.
+
+To learn more, see:
+https://en.wikipedia.org/wiki/Enigma_machine

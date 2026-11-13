@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cis2235.javafxdemo.HelloController">
+   <children>
+      <Label layoutX="68.0" layoutY="36.0" text="Enter two numbers to be added:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfFirst" layoutX="19.0" layoutY="88.0" />
+      <TextField fx:id="tfSecond" layoutX="178.0" layoutY="88.0" />
+      <Button layoutX="100.0" layoutY="134.0" mnemonicParsing="false" onAction="#onActionHandleAddButton" text="Press to add two numbers." />
+      <ComboBox fx:id="comboBox1" layoutX="104.0" layoutY="225.0" onAction="#onActionComboBoxEvent" prefWidth="150.0" />
+      <Slider fx:id="slider1" layoutX="346.0" layoutY="94.0" majorTickUnit="10.0" max="50.0" minorTickCount="5" onMouseClicked="#sliderClicked" showTickLabels="true" showTickMarks="true" snapToTicks="true" value="25.0" />
+      <Label fx:id="lblSlider" layoutX="509.0" layoutY="92.0" />
+      <CheckBox fx:id="checkBox1" layoutX="346.0" layoutY="151.0" mnemonicParsing="false" onAction="#handleCheckBox1Click" text="CheckBox" />
+      <CheckBox fx:id="checkBox2" layoutX="436.0" layoutY="151.0" mnemonicParsing="false" onAction="#handleCheckBox2Click" text="CheckBox" />
+      <Label fx:id="lblCheckBox" layoutX="374.0" layoutY="192.0" />
+      <RadioButton fx:id="rButton1" layoutX="393.0" layoutY="229.0" mnemonicParsing="false" onAction="#handleRButton1Clicked" text="Radio Button 1">
+         <toggleGroup>
+            <ToggleGroup fx:id="buttonGroup1" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="rButton2" layoutX="393.0" layoutY="266.0" mnemonicParsing="false" onAction="#handleRButton2Clicked" text="Radio Button 2" toggleGroup="$buttonGroup1" />
+      <Label fx:id="lblRadio" layoutX="367.0" layoutY="300.0" />
+      <Label fx:id="lblResults" layoutX="100.0" layoutY="184.0" />
+      <Label fx:id="lblComboBox" layoutX="104.0" layoutY="283.0" text="Your selection: I love Java" />
+   </children>
+</AnchorPane>

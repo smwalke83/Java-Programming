@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cis2235.walkerp9.ReuseController">
+    <children>
+        <Label alignment="CENTER" layoutY="41.0" prefHeight="35.0" prefWidth="601.0" text="Reuse Quiz - Check all that apply.">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <VBox layoutX="301.0" layoutY="106.0" prefHeight="205.0" prefWidth="300.0" spacing="30.0">
+            <children>
+                <CheckBox fx:id="cbSix" mnemonicParsing="false" prefHeight="17.0" prefWidth="301.0" text="CheckBox" />
+                <CheckBox fx:id="cbSeven" mnemonicParsing="false" prefHeight="17.0" prefWidth="304.0" text="CheckBox" />
+                <CheckBox fx:id="cbEight" mnemonicParsing="false" prefHeight="17.0" prefWidth="301.0" text="CheckBox" />
+                <CheckBox fx:id="cbNine" mnemonicParsing="false" prefHeight="17.0" prefWidth="359.0" text="CheckBox" />
+                <CheckBox fx:id="cbTen" mnemonicParsing="false" prefHeight="17.0" prefWidth="315.0" text="CheckBox" />
+            </children>
+        </VBox>
+        <VBox layoutX="25.0" layoutY="106.0" prefHeight="205.0" prefWidth="276.0" spacing="30.0">
+            <children>
+                <CheckBox fx:id="cbOne" mnemonicParsing="false" prefHeight="17.0" prefWidth="276.0" text="CheckBox" />
+                <CheckBox fx:id="cbTwo" mnemonicParsing="false" prefHeight="17.0" prefWidth="278.0" text="CheckBox" />
+                <CheckBox fx:id="cbThree" mnemonicParsing="false" prefHeight="17.0" prefWidth="278.0" text="CheckBox" />
+                <CheckBox fx:id="cbFour" mnemonicParsing="false" prefHeight="17.0" prefWidth="281.0" text="CheckBox" />
+                <CheckBox fx:id="cbFive" mnemonicParsing="false" prefHeight="17.0" prefWidth="277.0" text="CheckBox" />
+            </children>
+        </VBox>
+        <Button fx:id="btnSubmit" layoutX="275.0" layoutY="344.0" mnemonicParsing="false" onAction="#onSubmitClick" text="Submit" />
+    </children>
+</AnchorPane>

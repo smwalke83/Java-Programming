@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cis2235.walkerp9.MainController">
+   <children>
+      <Label alignment="CENTER" layoutY="34.0" prefHeight="17.0" prefWidth="600.0" text="Reduce, Reuse, Recycle!">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextArea editable="false" layoutX="174.0" layoutY="81.0" prefHeight="80.0" prefWidth="252.0" text="The core concepts of sustainability are Reduce, Reuse, and Recycle. Click the button for each one to take a short quiz and see your sustainability score in each area!" wrapText="true" />
+      <Button fx:id="btnReuse" layoutX="276.0" layoutY="324.0" mnemonicParsing="false" onAction="#onReuseClick" text="Reuse" />
+      <Button fx:id="btnReduce" layoutX="118.0" layoutY="324.0" mnemonicParsing="false" onAction="#onReduceClick" text="Reduce" />
+      <Button fx:id="btnRecycle" layoutX="426.0" layoutY="324.0" mnemonicParsing="false" onAction="#onRecycleClick" text="Recycle" />
+      <TextArea fx:id="taReduce" editable="false" layoutX="81.0" layoutY="222.0" prefHeight="59.0" prefWidth="130.0" promptText="Results will be displayed here" wrapText="true" />
+      <TextArea fx:id="taReuse" editable="false" layoutX="235.0" layoutY="222.0" prefHeight="59.0" prefWidth="130.0" promptText="Results will be displayed here" wrapText="true" />
+      <TextArea fx:id="taRecycle" editable="false" layoutX="389.0" layoutY="222.0" prefHeight="59.0" prefWidth="130.0" promptText="Results will be displayed here" wrapText="true" />
+   </children>
+</AnchorPane>

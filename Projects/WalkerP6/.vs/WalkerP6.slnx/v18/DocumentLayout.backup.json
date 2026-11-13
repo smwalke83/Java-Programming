@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\smwal\\OneDrive\\Documents\\CSharp\\Projects\\WalkerP6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED4BC60-1D68-467F-A922-D746C93567E1}|WalkerP6\\WalkerP6.csproj|c:\\users\\smwal\\onedrive\\documents\\csharp\\projects\\walkerp6\\walkerp6\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED4BC60-1D68-467F-A922-D746C93567E1}|WalkerP6\\WalkerP6.csproj|solutionrelative:walkerp6\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED4BC60-1D68-467F-A922-D746C93567E1}|WalkerP6\\WalkerP6.csproj|c:\\users\\smwal\\onedrive\\documents\\csharp\\projects\\walkerp6\\walkerp6\\addmultiplecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED4BC60-1D68-467F-A922-D746C93567E1}|WalkerP6\\WalkerP6.csproj|solutionrelative:walkerp6\\addmultiplecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED4BC60-1D68-467F-A922-D746C93567E1}|WalkerP6\\WalkerP6.csproj|c:\\users\\smwal\\onedrive\\documents\\csharp\\projects\\walkerp6\\walkerp6\\addonecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED4BC60-1D68-467F-A922-D746C93567E1}|WalkerP6\\WalkerP6.csproj|solutionrelative:walkerp6\\addonecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED4BC60-1D68-467F-A922-D746C93567E1}|WalkerP6\\WalkerP6.csproj|c:\\users\\smwal\\onedrive\\documents\\csharp\\projects\\walkerp6\\walkerp6\\iinventorycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED4BC60-1D68-467F-A922-D746C93567E1}|WalkerP6\\WalkerP6.csproj|solutionrelative:walkerp6\\iinventorycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED4BC60-1D68-467F-A922-D746C93567E1}|WalkerP6\\WalkerP6.csproj|c:\\users\\smwal\\onedrive\\documents\\csharp\\projects\\walkerp6\\walkerp6\\inventoryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ED4BC60-1D68-467F-A922-D746C93567E1}|WalkerP6\\WalkerP6.csproj|solutionrelative:walkerp6\\inventoryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddMultipleCommand.cs",
+              "DocumentMoniker": "C:\\Users\\smwal\\OneDrive\\Documents\\CSharp\\Projects\\WalkerP6\\WalkerP6\\AddMultipleCommand.cs",
+              "RelativeDocumentMoniker": "WalkerP6\\AddMultipleCommand.cs",
+              "ToolTip": "C:\\Users\\smwal\\OneDrive\\Documents\\CSharp\\Projects\\WalkerP6\\WalkerP6\\AddMultipleCommand.cs",
+              "RelativeToolTip": "WalkerP6\\AddMultipleCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T16:33:23.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddOneCommand.cs",
+              "DocumentMoniker": "C:\\Users\\smwal\\OneDrive\\Documents\\CSharp\\Projects\\WalkerP6\\WalkerP6\\AddOneCommand.cs",
+              "RelativeDocumentMoniker": "WalkerP6\\AddOneCommand.cs",
+              "ToolTip": "C:\\Users\\smwal\\OneDrive\\Documents\\CSharp\\Projects\\WalkerP6\\WalkerP6\\AddOneCommand.cs",
+              "RelativeToolTip": "WalkerP6\\AddOneCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T16:29:21.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IInventoryCommand.cs",
+              "DocumentMoniker": "C:\\Users\\smwal\\OneDrive\\Documents\\CSharp\\Projects\\WalkerP6\\WalkerP6\\IInventoryCommand.cs",
+              "RelativeDocumentMoniker": "WalkerP6\\IInventoryCommand.cs",
+              "ToolTip": "C:\\Users\\smwal\\OneDrive\\Documents\\CSharp\\Projects\\WalkerP6\\WalkerP6\\IInventoryCommand.cs",
+              "RelativeToolTip": "WalkerP6\\IInventoryCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAB6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T16:28:42.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InventoryItem.cs",
+              "DocumentMoniker": "C:\\Users\\smwal\\OneDrive\\Documents\\CSharp\\Projects\\WalkerP6\\WalkerP6\\InventoryItem.cs",
+              "RelativeDocumentMoniker": "WalkerP6\\InventoryItem.cs",
+              "ToolTip": "C:\\Users\\smwal\\OneDrive\\Documents\\CSharp\\Projects\\WalkerP6\\WalkerP6\\InventoryItem.cs",
+              "RelativeToolTip": "WalkerP6\\InventoryItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T16:27:29.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\smwal\\OneDrive\\Documents\\CSharp\\Projects\\WalkerP6\\WalkerP6\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WalkerP6\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\smwal\\OneDrive\\Documents\\CSharp\\Projects\\WalkerP6\\WalkerP6\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WalkerP6\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAADIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T16:25:53.221Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

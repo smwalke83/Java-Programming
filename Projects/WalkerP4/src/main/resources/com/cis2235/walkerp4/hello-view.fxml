@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cis2235.walkerp4.HelloController">
+   <children>
+      <Label fx:id="lblHeader" layoutX="157.0" layoutY="21.0" text="Party Planner 5000">
+         <font>
+            <Font name="Constantia" size="24.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="cbxTheme" layoutX="130.0" layoutY="66.0" prefWidth="150.0">
+         <tooltip>
+            <Tooltip text="Select a Party Theme" />
+         </tooltip>
+      </ComboBox>
+      <Label fx:id="lblTheme" layoutX="14.0" layoutY="70.0" text="Choose a Theme:" />
+      <TextField fx:id="tbxNumGuests" layoutX="131.0" layoutY="100.0" text="5">
+         <tooltip>
+            <Tooltip text="Enter number of party guests" />
+         </tooltip>
+      </TextField>
+      <Label fx:id="lblNumGuests" layoutX="14.0" layoutY="104.0" text="How Many Guests?" />
+      <Label fx:id="lblAddress" layoutX="14.0" layoutY="134.0" text="Address" />
+      <TextField fx:id="txbAddress" layoutX="131.0" layoutY="130.0" text="123 Example St">
+         <tooltip>
+            <Tooltip text="Enter the address of the party" />
+         </tooltip>
+      </TextField>
+      <Slider fx:id="sliderHours" blockIncrement="1.0" layoutX="323.0" layoutY="106.0" majorTickUnit="3.0" max="6.0" minorTickCount="1" showTickLabels="true" showTickMarks="true" snapToTicks="true" value="3.0">
+         <tooltip>
+            <Tooltip text="Select how many hours long the party should be" />
+         </tooltip>
+      </Slider>
+      <Label fx:id="lblLength" layoutX="342.0" layoutY="70.0" text="How Long? (Hours)" />
+      <RadioButton fx:id="rbLays" layoutX="36.0" layoutY="195.0" mnemonicParsing="false" selected="true" text="Lays">
+         <toggleGroup>
+            <ToggleGroup fx:id="SnackBrand" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="rbRuffles" layoutX="36.0" layoutY="223.0" mnemonicParsing="false" text="Ruffles" toggleGroup="$SnackBrand" />
+      <RadioButton fx:id="rbOffBrandSnack" layoutX="36.0" layoutY="250.0" mnemonicParsing="false" text="Off Brand" toggleGroup="$SnackBrand" />
+      <Label fx:id="lblSnackBrand" layoutX="36.0" layoutY="167.0" text="Snack Brand:">
+         <tooltip>
+            <Tooltip text="Select the preferred snack brand" />
+         </tooltip>
+      </Label>
+      <Label fx:id="lblDrinkBrand" layoutX="130.0" layoutY="167.0" text="Drink Brand:">
+         <tooltip>
+            <Tooltip text="Select the preferred drink brand" />
+         </tooltip>
+      </Label>
+      <RadioButton fx:id="rbCoke" layoutX="130.0" layoutY="195.0" mnemonicParsing="false" selected="true" text="Coke">
+         <toggleGroup>
+            <ToggleGroup fx:id="DrinkBrand" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="rbPepsi" layoutX="130.0" layoutY="223.0" mnemonicParsing="false" text="Pepsi" toggleGroup="$DrinkBrand" />
+      <RadioButton fx:id="rbOffBrandDrink" layoutX="130.0" layoutY="250.0" mnemonicParsing="false" text="Off Brand" toggleGroup="$DrinkBrand" />
+      <CheckBox fx:id="cbDJ" layoutX="244.0" layoutY="195.0" mnemonicParsing="false" text="DJ?" />
+      <CheckBox fx:id="cbBouncer" layoutX="244.0" layoutY="223.0" mnemonicParsing="false" text="Bouncer?" />
+      <CheckBox fx:id="cbAlcohol" layoutX="244.0" layoutY="250.0" mnemonicParsing="false" text="Alcohol?" />
+      <CheckBox fx:id="cbKidsWelcome" layoutX="342.0" layoutY="195.0" mnemonicParsing="false" text="Kids Welcome?" />
+      <CheckBox fx:id="cbPetsWelcome" layoutX="342.0" layoutY="223.0" mnemonicParsing="false" text="Pets Welcome?" />
+      <CheckBox fx:id="cbPlusOne" layoutX="342.0" layoutY="250.0" mnemonicParsing="false" text="Plus One?" />
+      <TextArea fx:id="tfSummary" layoutX="43.0" layoutY="350.0" prefHeight="113.0" prefWidth="415.0">
+         <tooltip>
+            <Tooltip text="Details of your party" />
+         </tooltip>
+      </TextArea>
+      <Button fx:id="btnSummary" layoutX="44.0" layoutY="308.0" mnemonicParsing="false" onMouseClicked="#onSummaryClick" onMouseEntered="#onSummaryEntered" onMouseExited="#onSummaryExited" prefHeight="25.0" prefWidth="118.0" text="Summary">
+         <tooltip>
+            <Tooltip text="Generate a party summary" />
+         </tooltip>
+      </Button>
+      <Button fx:id="btnSave" layoutX="340.0" layoutY="308.0" mnemonicParsing="false" onMouseClicked="#onSaveClick" onMouseEntered="#onSaveEntered" onMouseExited="#onSaveExited" prefHeight="25.0" prefWidth="118.0" text="Save Party">
+         <tooltip>
+            <Tooltip text="Save the party summary to a file" />
+         </tooltip>
+      </Button>
+      <Label fx:id="lblOther" layoutX="309.0" layoutY="167.0" text="Other:">
+         <tooltip>
+            <Tooltip text="Check the boxes that will apply" />
+         </tooltip>
+      </Label>
+   </children>
+</AnchorPane>
